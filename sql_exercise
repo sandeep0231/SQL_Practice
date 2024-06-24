@@ -14,7 +14,7 @@ Solution:-  SELECT DISTINCT salary FROM Employees ORDER BY salary DESC LIMIT 1 O
 Solution:- SELECT AVG(ProductionCost) FROM games WHERE ProductionYear BETWEEN 2010 AND 2015 AND Rating >7;
 
 ========================================================================================================================================================================
-4) 
+4) Find the Nth highest salary of   employee from each department in the Employees table ? 
 
 
 
