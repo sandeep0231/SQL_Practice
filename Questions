@@ -1,0 +1,7 @@
+1) What Are the Basic Elements of a SQL Query?
+Solution: -  The exact structure of each SQL query will obviously depend on the problem you are trying to solve.
+      However, there are some basic elements that form most SQL queries. SELECT,  FROM,  JOIN,  WHERE,  GROUP BY, 
+       HAVING, and ORDER BY are common elements of a SQL query.
+
+====================================================================================================================================
+2)
