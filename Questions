@@ -60,11 +60,12 @@ Solution: - INTERSECT and MINUS are also set operators; both work on two SELECT 
             result. INTERSECT, on the other hand, returns distinct rows that appear in both queries.
 
 =================================================================================================================================
-11) 
+11) Describe the Role of the DISTINCT keyword ?
+Solutions: -  DISTINCT is used with the SELECT statement to return only unique values.f the result set contains duplicates, 
+              then the DISTINCT statement can be used to return the unique.
 
-
-
-
+=================================================================================================================================
+12) What Is a Subquery in SQL?
 
 
 
