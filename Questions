@@ -41,7 +41,7 @@ Solutions:- ORDER BY sorts records based on user-defined conditions, e.g. ORDER 
              sorts are in ascending order by default.
 
 ==================================================================================================================================
-8)What Is a NULL in SQL?
+8) What Is a NULL in SQL?
 Solutions: - In SQL, NULLs represent values that are unknown or unavailable. A NULL is not the same as a blank space 
             (a character) or a zero (a number); it’s something that we don’t yet know (e.g. an arrival date for an order
              that’s just been placed) or that doesn’t exist (like when someone doesn’t have a middle name).
@@ -49,35 +49,18 @@ Solutions: - In SQL, NULLs represent values that are unknown or unavailable. A N
 
 
 =================================================================================================================================
-9)
+9) What Does UNION Do? What’s the Difference Between UNION and UNION ALL?
+Solution: - UNION is a set operator that merges the results of two queries into one table.(Note: the queries must be structurally compatible.) 
+            UNION does not include duplicate records;  UNION ALL includes all records, even duplicates.
 
+=================================================================================================================================
+10) What Do the INTERSECT and MINUS Clauses do?
+Solution: - INTERSECT and MINUS are also set operators; both work on two SELECT statements. MINUS subtracts the result of the 
+            first 'SELECT' from the second 'SELECT'. In other words, it returns records that are unique to the first 'SELECT' 
+            result. INTERSECT, on the other hand, returns distinct rows that appear in both queries.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+=================================================================================================================================
+11) 
 
 
 
