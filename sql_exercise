@@ -3,4 +3,9 @@
 Solution::-  DELETE FROM Users  WHERE user_id NOT IN ( SELECT user_id  FROM Users  GROUP BY email );
 
 ========================================================================================================================================================================
-2) 
+2)  Find Nth highest Salary of Employee ?
+
+Solution:-  SELECT DISTINCT salary FROM Employees ORDER BY salary DESC LIMIT 1 OFFSET N-1;
+
+========================================================================================================================================================================
+3) 
