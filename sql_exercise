@@ -19,7 +19,9 @@ Solution:- SELECT AVG(ProductionCost) FROM games WHERE ProductionYear BETWEEN 20
 
 
 ========================================================================================================================================================================
-5) 
+5) To find cities whose names start with a vowel ('a', 'e', 'i', 'o', 'u') character ?
+
+Solution:-   SELECT city_name FROM cities WHERE LOWER(SUBSTR(city_name, 1, 1)) IN ('a', 'e', 'i', 'o', 'u');
 
 
 
