@@ -4,4 +4,103 @@ Solution: -  The exact structure of each SQL query will obviously depend on the 
        HAVING, and ORDER BY are common elements of a SQL query.
 
 ====================================================================================================================================
-2)
+2) What Is the SQL WHERE clause? 
+Solution: - WHERE is applied after the FROM or JOIN statements. It retrieves those records that meet the specified condition.
+
+====================================================================================================================================
+3) How Does GROUP BY Work?
+Solution: - The GROUP BY clause groups records with the same values in a given column. For example, 
+            if you wrote GROUP BY department, all employees with the same value in the department column 
+             would be one group.
+
+====================================================================================================================================
+4) Name and Explain Some Common Aggregate Functions ? 
+Solution: - In SQL, an aggregate function uses the data from multiple rows to calculate a single result.
+           Common aggregate functions:::
+            COUNT:- returns the number of rows.
+            SUM:- returns the sum of all values in that column.
+            AVG:- returns the average value.
+            MIN: - returns the smallest value.
+            MAX: - returns the largest value.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
