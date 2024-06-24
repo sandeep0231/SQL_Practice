@@ -1,2 +1,6 @@
 1) Delete the duplicate User data  from user table where user's  register's with duplicates emails ?
 
+Solution::-  DELETE FROM Users  WHERE user_id NOT IN ( SELECT user_id  FROM Users  GROUP BY email );
+
+========================================================================================================================================================================
+2) 
