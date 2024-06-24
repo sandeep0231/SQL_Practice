@@ -23,24 +23,33 @@ Solution: - In SQL, an aggregate function uses the data from multiple rows to ca
             MIN: - returns the smallest value.
             MAX: - returns the largest value.
 
+===================================================================================================================================
+5) What Does the HAVING Clause Do?
+ Solution:- The SQL HAVING clause is used for filtering the data created by the GROUP BY clause according to the
+           specified condition.  This clause filters the data on the grouped records rather than the individual records, 
+           so it must follow GROUP BY. It cannot be used without a GROUP BY clause.
+
+==================================================================================================================================
+6) What’s the Difference Between HAVING and WHERE?
+Solution:- he WHERE clause filters individual records; it cannot be applied to grouped or aggregated records.
+           The HAVING clause filters grouped or aggregated records.
+
+==================================================================================================================================
+7) What Does ORDER BY Do?
+Solutions:- ORDER BY sorts records based on user-defined conditions, e.g. ORDER BY Age will return records sorted by age 
+            in ascending order. The optional ASC (ascending) and DESC (descending) keywords specify the sort order;
+             sorts are in ascending order by default.
+
+==================================================================================================================================
+8)What Is a NULL in SQL?
+Solutions: - In SQL, NULLs represent values that are unknown or unavailable. A NULL is not the same as a blank space 
+            (a character) or a zero (a number); it’s something that we don’t yet know (e.g. an arrival date for an order
+             that’s just been placed) or that doesn’t exist (like when someone doesn’t have a middle name).
+             In database tables, some values cannot be NULL, like primary keys or mandatory fields.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+=================================================================================================================================
+9)
 
 
 
