@@ -22,12 +22,15 @@ Solution:- SELECT AVG(ProductionCost) FROM games WHERE ProductionYear BETWEEN 20
 5) To find cities whose names start with a vowel ('a', 'e', 'i', 'o', 'u') character ?
 
 Solution:-   SELECT city_name FROM cities WHERE LOWER(SUBSTR(city_name, 1, 1)) IN ('a', 'e', 'i', 'o', 'u');
-
-
-
-
 ========================================================================================================================================================================
+6) Which students from the Student table are not enrolled in any sports according to the Student_sport table ?
+NOTE::- we have two table one Student and Student_sport (LEFT JOIN)-
+
+
+select Student.id,Student.name, Student_sport.game_name from Student  LEFT JOIN Student_sport ON
+Student.id = Student_sport.student_id where  Student_sport.game_name IS NULL;
 ========================================================================================================================================================================
+
 ========================================================================================================================================================================
 ========================================================================================================================================================================
 ========================================================================================================================================================================
