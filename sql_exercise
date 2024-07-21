@@ -26,12 +26,19 @@ Solution:-   SELECT city_name FROM cities WHERE LOWER(SUBSTR(city_name, 1, 1)) I
 6) Which students from the Student table are not enrolled in any sports according to the Student_sport table ?
 NOTE::- we have two table one Student and Student_sport (LEFT JOIN)-
 
-
 select Student.id,Student.name, Student_sport.game_name from Student  LEFT JOIN Student_sport ON
 Student.id = Student_sport.student_id where  Student_sport.game_name IS NULL;
-========================================================================================================================================================================
 
 ========================================================================================================================================================================
+7) Which students are enrolled in more than 2 distinct sports according to the Student_sport table?
+
+SELECT Student.id, Student.name, Student_sport.game_name, COUNT(DISTINCT Student_sport.game_name) AS games_count
+FROM Student
+LEFT JOIN Student_sport ON Student.id = Student_sport.student_id
+GROUP BY Student.id, Student.name HAVING COUNT(DISTINCT Student_sport.game_name) > 2;
+========================================================================================================================================================================
+
+
 ========================================================================================================================================================================
 ========================================================================================================================================================================
 ========================================================================================================================================================================
