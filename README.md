@@ -31,8 +31,21 @@ Below are sample records inserted into the `Employee` table:
 
 ## Example Queries
 
-### Retrieve all employees:
+### Create  employees table:
+```sql
+create reedme file for this in beatyfuy
+CREATE TABLE Employee (
+    id INT primary_key AUTO_INCREMENT,
+    name VARCHAR(255),
+    emailid VARCHAR(256),
+    code VARCHAR(256),
+   salary DECIMAL(10, 2),
+    role_id INT,
+    role VARCHAR(256),
+    status INT);
+```
 
+### Retrieve all employees:
 ```sql
 SELECT * FROM Employee;
-
+```
